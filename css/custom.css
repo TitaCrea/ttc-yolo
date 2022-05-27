@@ -1,0 +1,42 @@
+h3 {
+	font-size: 1.5rem;
+}
+
+
+
+.btn-primary {
+	background-color: #DA6625;
+}
+
+.section-row {
+	width: calc(100% - 300px);
+	margin-left: 300px;
+	margin-right: 0;
+	position: relative;
+}
+
+.nav-link {
+	font-size: 1rem;
+}
+
+.tm-brand {
+	width: 100%;
+	max-width: 480px;
+}
+
+.tm-heading-primary { 
+	color: #DA6625;
+}
+.tm-heading-secondary { color: #a47f5d; }
+
+.tm-post-icon {
+	width: 64px;
+	height: 64px;
+}
+
+@media (min-width: 1200px) {
+	.tm-post-icon {
+		width: 100px;
+		height: 100px;
+	}
+}
