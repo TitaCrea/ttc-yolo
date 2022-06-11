@@ -14,9 +14,6 @@ wp-content/plugins/hello.php
 # ignore specific themes
 wp-content/themes/twenty*/
 
-# ignore specific files
-.DS_Store
-
 # ignore node dependency directories
 node_modules/
 
@@ -24,3 +21,33 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+node_modules/
+.tmp/
+
+# OS or Editor folders
+.DS_Store
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools
+_notes
+dwsync.xml
