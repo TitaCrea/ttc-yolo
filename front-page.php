@@ -31,7 +31,7 @@ get_header(); ?>
                         <hr class="tm-hr-short mb-5">
 
                         <h2 class="tm-heading-secondary">Rallye &Eacute;questre dans le Risoud</h2>
-                        <hr class="mb-2">
+                        <hr class="mb-4">
                         <div class="col-lg-12">
                             <h3 class="tm-heading-secondary" style="margin-left:-15px;">Samedi 15 octobre 2022</h3>
                             <a href="#rallye"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/rallye-logo-simple.png" style="width: 100%;"></a>
@@ -124,10 +124,22 @@ get_header(); ?>
                         </div>
                         <div class="mt-5">
                             <div class="tm-carousel">
+                            <?php 
+
+                                $furtherEvents = new WP_Query( array(
+                                    'post_type' => 'event', 
+                                    
+                                ));
+
+                                while( $furtherEvents->have_posts(  ) ) {
+                                    $furtherEvents->the_post(  ); 
+                                ?>
+
                                 <div class="tm-carousel-item">
                                     <figure class="effect-honey mb-4">
-                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about-01.jpg" alt="Featured Item">
-                                        <figcaption>Au Rocheray
+                                        <img src="<?php the_post_thumbnail_url( 'thumbnail' ); ?>" alt="Featured Item">
+                                        <figcaption>
+                                            Sous-titre
                                             <!-- <ul class="tm-social">
                                                 <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
                                                 <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
@@ -136,11 +148,18 @@ get_header(); ?>
                                         </figcaption>
                                     </figure>
                                     <div class="tm-about-text">
-                                        <h3 class="mb-3 tm-text-primary tm-about-title">Cortège du 1er Août</h3>
-                                        <p>Nous participerons avec nos chevaux au traditionnel défilé.</p>
+                                        <a href="<?php the_permalink(); ?>"><h3 class="mb-3 tm-text-primary tm-about-title"><?php the_title(); ?></h3></a>
+                                        <p><?php 
+                                            if( has_excerpt() ) { // SPECIAL Brad's Tip
+                                                echo get_the_excerpt(); // replace the_excerpt() that has 'space around'.
+                                                } 
+                                            else {
+                                                echo wp_trim_words( get_the_content(), 18 );
+                                                } ?></p>
                                         <h4 class="tm-text-secondary tm-about-subtitle">Infos suivront</h4>
                                     </div>
                                 </div>
+                                <?php } ?>
                                 
                                 <div class="tm-carousel-item">
                                     <figure class="effect-honey mb-4">

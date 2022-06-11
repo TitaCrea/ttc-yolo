@@ -40,3 +40,8 @@ h3 {
 		height: 100px;
 	}
 }
+
+#single-thumbnail img {
+	width: 100%;
+	height: 100%;
+}
