@@ -2,10 +2,17 @@ h3 {
 	font-size: 1.5rem;
 }
 
+a {
+	color: #c54200;
+}
 
 
 .btn-primary {
-	background-color: #DA6625;
+	background-color: #6e5a4d;
+}
+
+.btn-primary:hover {
+	background-color: #D5ad77;
 }
 
 .section-row {
@@ -34,9 +41,76 @@ h3 {
 	height: 64px;
 }
 
+#top-sidebar .tm-post-icon {
+	width: 54px;
+	height: 54px;
+}
+
+@media (max-width: 1200px) {
+	#top-sidebar {
+		display: none;
+	}	
+}
+
+@media (max-width: 1400px) {
+	#top-sidebar h4 {
+		font-size: 0.9rem;
+	}	
+}
+
+
+
+.tth-post-icon img {
+	max-width: 108px;
+	vertical-align: middle;
+}
+.ttc-text-icon {
+	padding: 0 0.5rem 0 2.5rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.ttc-text-icon h4 {
+	font-size: 1rem;
+}
+
+
+
 @media (min-width: 1200px) {
 	.tm-post-icon {
 		width: 100px;
 		height: 100px;
+	}
+}
+
+#single-thumbnail img {
+	width: 100%;
+	height: auto;
+}
+
+
+.ttc-single-wrap {
+	width: calc(100% - 320px);
+	margin-left: 320px;
+	margin-right: 0;
+	position: relative;
+}
+
+@media (max-width: 1400px) {
+	.ttc-single-wrap {
+		width: calc(100% - 320px);
+		margin-left: 320px;
+	}
+}
+
+@media (max-width: 991px) {
+	.ttc-single-wrap {
+		width: 100%;
+		margin-left: 0;
+	}
+	.navbar-toggler {
+		right: 0;
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
 	}
 }
