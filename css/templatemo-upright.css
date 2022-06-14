@@ -694,15 +694,15 @@ select:not([multiple]) {
 	.navbar-toggler {
 		display: block;
 		position: fixed;
-		left: 0;
+		// left: 0;
 		top: 0;
-		background-color: rgb(0 102 153 / 0.80);
+		background-color: rgb(110 90 77 / 0.80);
 		color: white;
 		padding: 10px 15px;
 		transition: all 0.3s ease;
 		border-radius: 0;
-		border-top-right-radius: 5px;
-		border-bottom-right-radius: 5px;
+		// border-top-right-radius: 5px;
+		// border-bottom-right-radius: 5px;
 		top: 40px;
 		z-index: 10000;
 	}

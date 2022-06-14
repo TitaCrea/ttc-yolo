@@ -2,7 +2,7 @@
                 <div class="tm-section-wrap tm-copyright row">
                     <div class="col-12">
                         <div class="text-right">
-                            Copyright 2020 Upright Company
+                        Design : <em>Yolo</em> by <a href="#credits">Tita Crea</a> ©2022
                         </div> 
                     </div>
                 </div>                 

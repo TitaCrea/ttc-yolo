@@ -21,7 +21,7 @@
                     <div>
                         <div class="tm-brand-box">
                             <div class="tm-brand">
-                            <a href="<?php site_url(); ?>">  
+                            <a href="<?php echo site_url(); ?>">  
                             <img src="<?php echo get_theme_file_uri( '/img/logo.png' ) ?>" alt="logo"></a>
                             </div>
                         </div>                
@@ -63,9 +63,11 @@
                             </li> -->
                         </ul>
                     </div>
-                    <footer class="mb-3 tm-mt-100">
-                        <a href="#credits">Design</a> : <em>Stand By Me</em> <br>
-                        by Tita Crea ©2022
+                    <footer id="sidebar-footer" class="mb-3 tm-mt-100">
+                        <p>Site en construction. Merci de votre compréhension.</p>
                     </footer>
                 </nav>
             </div>
+
+            <div class="tm-main">
+            
