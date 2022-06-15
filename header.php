@@ -27,24 +27,24 @@
                         </div>                
                         <ul id="tm-main-nav">
                             <li class="nav-item">                                
-                                <a href="#home" class="nav-link current">
+                                <a href="<?php echo site_url(); ?>" class="nav-link current">
                                     <div class="triangle-right"></div>
                                     <i class="fas fa-home nav-icon"></i>
                                     Accueil
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="#about" class="nav-link">
+                                <a href="<?php echo site_url( '/events/rallye-du-risoud-2022' ); ?>" class="nav-link">
                                     <div class="triangle-right"></div>
                                     <i class="fas fa-user-friends nav-icon"></i>
-                                    L'Amicale
+                                    Rallye du Risoud
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="#agenda" class="nav-link external" target="_parent" rel="sponsored">
+                                <a href="#about" class="nav-link external" target="_parent" rel="sponsored">
                                     <div class="triangle-right"></div>
                                     <i class="fas fa-calendar-alt nav-icon"></i>
-                                    Agenda
+                                    About
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -64,7 +64,7 @@
                         </ul>
                     </div>
                     <footer id="sidebar-footer" class="mb-3 tm-mt-100">
-                        <p>Site en construction. Merci de votre compréhension.</p>
+                        <p>Votre publicité ici ?</p>
                     </footer>
                 </nav>
             </div>
