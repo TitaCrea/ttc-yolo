@@ -1,4 +1,5 @@
 const path = require( 'path' )
+const webpack = require('webpack')
 
 const postCSSPlugins = [
     // first, via npm we install the plugins we need,
@@ -9,6 +10,11 @@ const postCSSPlugins = [
     require('postcss-nested'),
     require('autoprefixer'),
 ]
+// Tita added it
+new webpack.ProvidePlugin({
+    $: 'jquery',
+    jQuery: 'jquery',
+})
 
 module.exports = {
     entry: './scripts/main-script.js',
@@ -22,7 +28,7 @@ module.exports = {
           },
           contentBase: path.join(__dirname, 'app'),
           hot: true,
-          port: 4000,
+          port: 10023,
           host: '0.0.0.0'
           },
     mode: 'development',
