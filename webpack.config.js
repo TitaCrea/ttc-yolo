@@ -10,23 +10,24 @@ const postCSSPlugins = [
     require('postcss-nested'),
     require('autoprefixer'),
 ]
-// Tita added it
-new webpack.ProvidePlugin({
-    $: 'jquery',
-    jQuery: 'jquery',
-})
 
 module.exports = {
-    entry: './scripts/main-script.js',
+    entry: './assets/scripts/main-script.js',
     output: {
         filename: 'bundled.js',
-        path: path.resolve(__dirname, 'app')
+        path: path.resolve(__dirname, 'dist')
     },
+    plugins: [
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery',
+        }),
+    ],
     devServer: {
         before: function(app, server) {
-            server._watch('./app/**/*.html')
+            server._watch('./ttc-yolo/**/*.php')
           },
-          contentBase: path.join(__dirname, 'app'),
+          contentBase: path.join(__dirname, 'ttc-yolo'),
           hot: true,
           port: 10023,
           host: '0.0.0.0'
