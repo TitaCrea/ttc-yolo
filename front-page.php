@@ -7,7 +7,7 @@ get_header(); ?>
             
 <!-- Frontpage > Header section -->
 <div class="tm-section-wrap">
-    <div class="tm-parallax" data-parallax="scroll" data-image-src="<?php echo get_stylesheet_directory_uri(); ?>/img/img-01.png"></div>                   
+    <div class="tm-parallax" data-parallax="scroll" data-image-src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/img-01.png"></div>                   
     <section id="home" class="tm-section">
         <h1 class="tm-heading-primary"><?php bloginfo( 'title' ); ?></h1>
         <hr class="mb-4">
@@ -65,7 +65,7 @@ get_header(); ?>
 </div>
 <!-- Gallery section -->
 <div class="tm-section-wrap">
-    <div class="tm-parallax" data-parallax="scroll" data-image-src="<?php echo get_stylesheet_directory_uri(); ?>/img/img-02.jpg"></div>                   
+    <div class="tm-parallax" data-parallax="scroll" data-image-src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/img-02.jpg"></div>                   
     <section id="gallery" class="tm-section">
         <h2 class="tm-heading-secondary">Agenda 20'22</h2>
         <hr class="mb-5">
@@ -84,7 +84,7 @@ get_header(); ?>
                 </p>
             </div>
             <!-- <div class="tm-col-about tm-col-about-r">
-                <img src="img/img-about-01.jpg" alt="Image" class="img-fluid mb-5 tm-img-about">
+                <img src="assets/img/img-about-01.jpg" alt="Image" class="img-fluid mb-5 tm-img-about">
                 <p>
                     Duis fringilla eget purus luctus sodales. Sed auctor odio quis ligula dignissim efficitur vitae vitae quam.
                 </p>
@@ -131,7 +131,7 @@ get_header(); ?>
                 
                 <div class="tm-carousel-item">
                     <figure class="effect-honey mb-4">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about-02.jpg" alt="Featured Item">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/about-02.jpg" alt="Featured Item">
                         <figcaption>24 septembre<br/>Aux Charbonnières
                             <!-- <ul class="tm-social">
                                 <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
@@ -149,7 +149,7 @@ get_header(); ?>
 
                 <div class="tm-carousel-item">
                     <figure class="effect-honey mb-4">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about-03.jpg" alt="Featured Item">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/about-03.jpg" alt="Featured Item">
                         <figcaption>
                             <ul class="tm-social">
                                 <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
@@ -167,7 +167,7 @@ get_header(); ?>
 
                 <div class="tm-carousel-item">
                     <figure class="effect-honey mb-4">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about-01.jpg" alt="Featured Item">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/about-01.jpg" alt="Featured Item">
                         <figcaption>
                             <ul class="tm-social">
                                 <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
@@ -190,7 +190,7 @@ get_header(); ?>
 </div>
 <!-- About section -->
 <div class="tm-section-wrap">
-    <div class="tm-parallax" data-parallax="scroll" data-image-src="<?php echo get_stylesheet_directory_uri(); ?>/img/img-04.jpg"></div>
+    <div class="tm-parallax" data-parallax="scroll" data-image-src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/img-04.jpg"></div>
     <section id="about" class="tm-section">
         <h2 class="tm-text-primary">Projet : Galerie Photos</h2>
         <hr class="mb-5">
@@ -229,59 +229,59 @@ get_header(); ?>
         </ul>
         <div class="tm-gallery">
             <figure class="effect-honey tm-gallery-item portrait">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/gallery/tn/portrait-01.jpg" alt="Image"/>
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/gallery/tn/portrait-01.jpg" alt="Image"/>
                 <figcaption>
                     <h2><i>Dreamy Honey</i></h2>
-                    <a href="<?php echo get_stylesheet_directory_uri(); ?>/img/gallery/portrait-01.jpg">View more</a>						
+                    <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/gallery/portrait-01.jpg">View more</a>						
                 </figcaption>			
             </figure>
             <figure class="effect-honey tm-gallery-item building">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/gallery/tn/building-01.jpg" alt="Image"/>
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/gallery/tn/building-01.jpg" alt="Image"/>
                 <figcaption>
                     <h2><i>Dreamy Honey</i></h2>
-                    <a href="<?php echo get_stylesheet_directory_uri(); ?>/img/gallery/building-01.jpg">View more</a>						
+                    <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/gallery/building-01.jpg">View more</a>						
                 </figcaption>			
             </figure>  
             <figure class="effect-honey tm-gallery-item nature">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/gallery/tn/nature-01.jpg" alt="Image"/>
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/gallery/tn/nature-01.jpg" alt="Image"/>
                 <figcaption>
                     <h2><i>Dreamy Honey</i></h2>
-                    <a href="<?php echo get_stylesheet_directory_uri(); ?>/img/gallery/nature-01.jpg">View more</a>						
+                    <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/gallery/nature-01.jpg">View more</a>						
                 </figcaption>			
             </figure>
             <figure class="effect-honey tm-gallery-item animal">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/gallery/tn/animal-01.jpg" alt="Image"/>
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/gallery/tn/animal-01.jpg" alt="Image"/>
                 <figcaption>
                     <h2><i>Dreamy Honey</i></h2>
-                    <a href="<?php echo get_stylesheet_directory_uri(); ?>/img/gallery/animal-01.jpg">View more</a>						
+                    <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/gallery/animal-01.jpg">View more</a>						
                 </figcaption>			
             </figure> 
             <figure class="effect-honey tm-gallery-item building">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/gallery/tn/building-02.jpg" alt="Image"/>
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/gallery/tn/building-02.jpg" alt="Image"/>
                 <figcaption>
                     <h2><i>Dreamy Honey</i></h2>
-                    <a href="<?php echo get_stylesheet_directory_uri(); ?>/img/gallery/building-02.jpg">View more</a>						
+                    <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/gallery/building-02.jpg">View more</a>						
                 </figcaption>			
             </figure>
             <figure class="effect-honey tm-gallery-item nature">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/gallery/tn/nature-02.jpg" alt="Image"/>
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/gallery/tn/nature-02.jpg" alt="Image"/>
                 <figcaption>
                     <h2><i>Dreamy Honey</i></h2>
-                    <a href="<?php echo get_stylesheet_directory_uri(); ?>/img/gallery/nature-02.jpg">View more</a>						
+                    <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/gallery/nature-02.jpg">View more</a>						
                 </figcaption>			
             </figure> 
             <figure class="effect-honey tm-gallery-item portrait">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/gallery/tn/portrait-02.jpg" alt="Image"/>
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/gallery/tn/portrait-02.jpg" alt="Image"/>
                 <figcaption>
                     <h2><i>Dreamy Honey</i></h2>
-                    <a href="<?php echo get_stylesheet_directory_uri(); ?>/img/gallery/portrait-02.jpg">View more</a>						
+                    <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/gallery/portrait-02.jpg">View more</a>						
                 </figcaption>			
             </figure>
             <figure class="effect-honey tm-gallery-item animal">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/gallery/tn/animal-02.jpg" alt="Image"/>
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/gallery/tn/animal-02.jpg" alt="Image"/>
                 <figcaption>
                     <h2><i>Dreamy Honey</i></h2>
-                    <a href="<?php echo get_stylesheet_directory_uri(); ?>/img/gallery/animal-02.jpg">View more</a>						
+                    <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/gallery/animal-02.jpg">View more</a>						
                 </figcaption>			
             </figure> 
 
@@ -296,7 +296,7 @@ get_header(); ?>
 
 <!-- Contact section -->
 <div class="tm-section-wrap">
-    <div class="tm-parallax" data-parallax="scroll" data-image-src="<?php echo get_stylesheet_directory_uri(); ?>/img/img-03.jpg"></div>
+    <div class="tm-parallax" data-parallax="scroll" data-image-src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/img-03.jpg"></div>
     <div id="contact" class="tm-section">
         <h2 class="tm-text-primary">Contact Upright</h2>
         <hr class="mb-5">

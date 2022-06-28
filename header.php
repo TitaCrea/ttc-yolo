@@ -22,7 +22,7 @@
                         <div class="tm-brand-box">
                             <div class="tm-brand">
                             <a href="<?php echo site_url(); ?>">  
-                            <img src="<?php echo get_theme_file_uri( '/img/logo.png' ) ?>" alt="logo"></a>
+                            <img src="<?php echo get_theme_file_uri( '/assets/img/logo.png' ) ?>" alt="logo"></a>
                             </div>
                         </div>                
                         <ul id="tm-main-nav">
